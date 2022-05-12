@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <table border="1">
+        
+            <td align="center" colspan="2"><b>Pizza Shop 2.0</b></td>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input required placeholder="Name" tabindex="1">
+                </td>
+            </tr>
+            <td rowspan="1">Pizza Topping</td>
+            <td rowspan="1">
+                <label> <input required type="radio" value="Supreme" name="toping">Supreme </label>
+                <br>
+                <label> <input required type="radio" value="Vegetarian" name="toping">Vegetarian </label>
+                <br>
+                <label> <input required type="radio" value="Hawaiian" name="toping">Hawaiian </label>
+            </td>
+            <tr>
+            <td>Pizza Sauce</td>
+            <td>
+                <select name="sauce">
+                    <option value="Cheese">Cheese</option>
+                    <option value="Sausage">Sausage</option>
+                    <option selected value="Tomato">Tomato</option>
+                </select>
+            </td>
+            </tr>
+            <td>Optional Extras</td>
+            <td>
+                <label>  <input type="checkbox" >Extra Cheese </label>
+                <label>  <input type="checkbox" >Gluten Free Base </label>
+            </td>
+            <tr>
+            <td colspan="2">
+                Delivery Instructions:
+                <div>
+                    <textarea required name="text"></textarea>
+            </td>
+                 </div>
+            </tr>
+            <tr>
+            <td>
+                <button type="submit">Send my Order</button>
+            </td>
+            </tr>
+            </tr>
+    </body>
+</html>
